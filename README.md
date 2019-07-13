@@ -1,5 +1,5 @@
 # Python Snake
-The classic snake game made in Python Tkinter. Written for Python 2 by Fred Adams. Licensed under the MIT License.
+The classic snake game made in [Python Tkinter](https://docs.python.org/2/library/tkinter.html). Written for Python2 by Fred Adams. Licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 ![Gameplay Screenshot of Python Snake](screenshots/1.png)
 
 ## Overview
@@ -10,9 +10,9 @@ In this version, it is possible to move through walls, although it is possible t
 The code is well commented, and only requires Python2 to be installed, however, it does use Tkinter, which should come pre-installed with Python2, but may not be for various reasons. Additional download information is below.
 
 ## Download and Play
- 1. Make sure you have Python installed. Install Python at [python.org](https://www.python.org/). Most computers running macOS should have Python pre-installed. Check if you have Python installed by typing the command ```python``` and pressing enter in your command prompt or terminal. If a prompt like ```>>>``` shows up, then Python is installed.
+ 1. Make sure you have Python installed. Install Python at [python.org](https://www.python.org/downloads/). Most computers running macOS should have Python pre-installed. Check if you have Python installed by typing the command ```python``` and pressing enter in your command prompt or terminal. If a prompt like ```>>>``` shows up, then Python is installed.
  2. Run the following command to download and play Python Snake! Note that this will download a file called ```snake.py``` into your current working directory.
  
  ```bash
- $ curl https://xtrp.github.io/python-snake/snake.py -o snake.py && python snake.py
+ curl https://xtrp.github.io/python-snake/snake.py -o snake.py && python snake.py
  ```
