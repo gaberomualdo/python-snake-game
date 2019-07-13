@@ -1,5 +1,5 @@
 # Python Snake
-The classic snake game made in [Python Tkinter](https://docs.python.org/2/library/tkinter.html). Written for Python2 by Fred Adams. Licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+The classic snake game made in [Python Tkinter](https://docs.python.org/2/library/tkinter.html). Written for Python2 by [Fred Adams](https://xtrp.io/). Licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 ![Gameplay Screenshot of Python Snake](screenshots/2.png)
 
 ## Overview
