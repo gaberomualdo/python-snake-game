@@ -41,7 +41,17 @@ player_velocity = [1, 0]
 
 # generate new random apple coordinates
 def generateAppleCoords():
-	return [random.randint(0, (game_dimensions[0] - 1)), random.randint(0, (game_dimensions[1] - 1))]
+	# declare global variable(s)
+	global player_tail
+
+	# variable for generated random apple coordinates
+	generated_apple_coords = [random.randint(0, (game_dimensions[0] - 1)), random.randint(0, (game_dimensions[1] - 1))]
+
+	# loop through tail and check if generated apple coords overlap the tail; if they do, generate again
+	for item in player_tail:
+		if(item[0] == generated_apple_coords[0] and item[1] == generated_apple_coords[1]):
+			return generateAppleCoords()
+	return generated_apple_coords
 
 # apple coordinates
 apple_coords = generateAppleCoords()
@@ -55,7 +65,7 @@ def createGridItem(coords, hexcolor):
 
 # gameloop
 def gameloop():
-	# declare use of global variables within canvas
+	# declare use of global variables
 	global frames_per_second
 	global velocity_changed_this_frame
 	global game_canvas
