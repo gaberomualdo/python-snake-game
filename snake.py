@@ -47,10 +47,12 @@ def generateAppleCoords():
 	# variable for generated random apple coordinates
 	generated_apple_coords = [random.randint(0, (game_dimensions[0] - 1)), random.randint(0, (game_dimensions[1] - 1))]
 
-	# loop through tail and check if generated apple coords overlap the tail; if they do, generate again
+	# loop through tail and check if generated apple coords overlap the tail; if they do, generate again (recursion!)
 	for item in player_tail:
 		if(item[0] == generated_apple_coords[0] and item[1] == generated_apple_coords[1]):
 			return generateAppleCoords()
+
+	# apple coords do not overlap, so return them
 	return generated_apple_coords
 
 # apple coordinates
