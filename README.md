@@ -1,6 +1,6 @@
 # Python Snake
 The classic snake game made in [Python Tkinter](https://docs.python.org/2/library/tkinter.html). Written for Python2 by [Fred Adams](https://xtrp.io/). Licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
-![Gameplay Screenshot of Python Snake](screenshots/2.png)
+![Python Snake Graphic](graphic.jpg)
 
 ## Overview
 The game is just like the original: a snake trying to eat an apple. The snake is colored green, and the apple is red. You are the snake; move using the arrow keys, and avoid eating your own tail. 
