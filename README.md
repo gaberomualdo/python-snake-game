@@ -16,3 +16,6 @@ The code is well commented, and only requires Python2 to be installed, however, 
  ```bash
  curl https://xtrp.github.io/python-snake/snake.py -o snake.py && python snake.py
  ```
+
+## Bugs or Issues
+If you find a bug or have an issue with Python Snake, feel free to [Submit an Issue](https://github.com/xtrp/python-snake/issues/new).
