@@ -17,13 +17,13 @@ Use the arrow keys to move: the left arrow key to move left, the right arrow key
 
 ## Download and Play
 
-    1. Make sure you have Python installed. Install Python at [python.org](https://www.python.org/downloads/). Most computers running macOS should have Python pre-installed. Check if you have Python installed by typing the command ```python``` and pressing enter in your command prompt or terminal. If a prompt like ```>>>``` shows up, then Python is installed.
+1. Make sure you have Python installed. Install Python at [python.org](https://www.python.org/downloads/). Most computers running macOS should have Python pre-installed. Check if you have Python installed by typing the command ```python``` and pressing enter in your command prompt or terminal. If a prompt like ```>>>``` shows up, then Python is installed.
     
-    2. Run the following command to download and play Python Snake! Note that this will download a file called ```snake.py``` into your current working directory.
+2. Run the following command to download and play Python Snake! Note that this will download a file called ```snake.py``` into your current working directory.
  
-        ```bash
-        curl https://xtrp.github.io/python-snake/snake.py -o snake.py && python snake.py
-        ```
+    ```bash
+    curl https://xtrp.github.io/python-snake/snake.py -o snake.py && python snake.py
+    ```
 
 ## Bugs or Issues
 
